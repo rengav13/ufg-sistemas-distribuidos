@@ -1,0 +1,38 @@
+{
+  "name": "p2-g5",
+  "version": "1.0.0",
+  "description": "Projeto 2 - protótipo de cliente web para servidor IRC da disciplina de aplicações/sistemas distribuídos",
+  "main": "app.js",
+  "scripts": {
+    "start-dev": "./node_modules/.bin/nodemon app.js",
+    "lint": "./node_modules/.bin/eslint ./**/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/sd1-ec-2017-2/p2-g5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/sd1-ec-2017-2/p2-g5/issues"
+  },
+  "homepage": "https://gitlab.com/sd1-ec-2017-2/p2-g5#README",
+  "devDependencies": {
+    "nodemon": "^1.12.1",
+    "eslint": "4.7.2",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "irc": "^0.5.2",
+    "socket.io": "^2.0.3",
+    "socket.io-cookie": "0.0.1"
+  }
+}
